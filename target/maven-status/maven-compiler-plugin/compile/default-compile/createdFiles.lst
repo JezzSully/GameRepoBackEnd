@@ -1,0 +1,8 @@
+com\jez\business\UserBusiness.class
+com\jez\rest\JAXActivator.class
+com\jez\rest\UserEndpoints.class
+com\jez\persistence\repository\UserRepository.class
+com\jez\persistence\domain\LoLProfile.class
+com\jez\util\JSONUtil.class
+com\jez\persistence\domain\User.class
+com\jez\persistence\repository\UserH2DBRepository.class
