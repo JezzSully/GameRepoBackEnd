@@ -21,18 +21,10 @@ public class User {
 
 	private String email;
 
-	@OneToOne(optional = true, cascade=CascadeType.ALL, fetch=FetchType.EAGER)
+	@OneToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private LoLProfile leagueProfile;
 
 	private String passHash;
-
-	public long getUserID() {
-		return Id;
-	}
-
-	public void setUserID(long userID) {
-		this.Id = userID;
-	}
 
 	public String getUsername() {
 		return username;
@@ -72,5 +64,13 @@ public class User {
 
 	public void setPassHash(String passHash) {
 		this.passHash = passHash;
+	}
+
+	public long getId() {
+		return Id;
+	}
+
+	public void setId(long id) {
+		Id = id;
 	}
 }

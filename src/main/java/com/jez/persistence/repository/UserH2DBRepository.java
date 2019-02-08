@@ -45,8 +45,14 @@ public class UserH2DBRepository implements UserRepository {
 	@Transactional(REQUIRED)
 	public String updateUser(long id, String user) {
 		User myUser = jsonUtil.getObjectForJSON(user, User.class);
+		manager.detach(manager.find(User.class, id));
 		User tempUser = manager.merge(myUser);
-		return this.successMessage;
+		manager.flush();
+		if(jsonUtil.getJSONForObject(tempUser).equals(user)) {
+			return this.successMessage;
+		} else {
+			return this.failureMessage;
+		}
 	}
 
 	@Transactional(REQUIRED)

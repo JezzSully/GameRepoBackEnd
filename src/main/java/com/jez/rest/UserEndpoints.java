@@ -12,34 +12,34 @@ import com.jez.business.UserBusiness;
 
 @Path("/user")
 public class UserEndpoints {
-	
+
 	@Inject
 	private UserBusiness service;
-	
+
 	@Path("/")
 	@GET
 	public String getAllUsers() {
 		return service.getAllUsers();
 	}
-	
+
 	@Path("/{id}")
 	@GET
-	public String getUserById(@PathParam("id")long id) {
+	public String getUserById(@PathParam("id") long id) {
 		return service.getUserById(id);
 	}
-	
+
 	@Path("/")
 	@POST
 	public String createUser(String user) {
 		return service.createUser(user);
 	}
-	
+
 	@Path("/{id}")
 	@PUT
 	public String updateUser(@PathParam("id") long id, String user) {
 		return service.updateUser(id, user);
 	}
-	
+
 	@Path("/{id}")
 	@DELETE
 	public String deleteUser(@PathParam("id") long id) {
