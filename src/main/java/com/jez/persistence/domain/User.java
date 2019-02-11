@@ -23,8 +23,33 @@ public class User {
 
 	@OneToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private LoLProfile leagueProfile;
+	
+	@OneToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private DotAProfile dotaProfile;
 
 	private String passHash;
+	
+	public User() {
+		
+	}
+	
+	public User(long id, String username, int age, String email, String passHash) {
+		this.Id = id;
+		this.username = username;
+		this.age = age;
+		this.email = email;
+		this.passHash = passHash;
+	}
+	
+	public User(long id, String username, int age, String email, LoLProfile leagueProfile, DotAProfile dotaProfile, String passHash) {
+		this.Id = id;
+		this.username = username;
+		this.age = age;
+		this.email = email;
+		this.leagueProfile = leagueProfile;
+		this.dotaProfile = dotaProfile;
+		this.passHash = passHash;
+	}
 
 	public String getUsername() {
 		return username;

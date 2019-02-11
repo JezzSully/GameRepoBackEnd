@@ -10,4 +10,5 @@ com\jez\rest\JAXActivator.class
 com\jez\persistence\repository\UserRepository.class
 com\jez\persistence\domain\LoLProfile.class
 com\jez\persistence\domain\User.class
+com\jez\persistence\domain\DotAProfile.class
 com\jez\rest\TeamEndpoints.class

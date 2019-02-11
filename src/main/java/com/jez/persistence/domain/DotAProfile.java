@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class LoLProfile {
+public class DotAProfile {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,13 +18,21 @@ public class LoLProfile {
 
 	private String division;
 
-	private String faveChamp;
+	private String faveHero;
 
 	private String favePosition;
 	
 	private String tag;
 	
 	private String notes;
+
+	public long getId() {
+		return Id;
+	}
+
+	public void setId(long id) {
+		Id = id;
+	}
 
 	public String getUsername() {
 		return username;
@@ -50,12 +58,12 @@ public class LoLProfile {
 		this.division = division;
 	}
 
-	public String getFaveChamp() {
-		return faveChamp;
+	public String getFaveHero() {
+		return faveHero;
 	}
 
-	public void setFaveChamp(String faveChamp) {
-		this.faveChamp = faveChamp;
+	public void setFaveHero(String faveHero) {
+		this.faveHero = faveHero;
 	}
 
 	public String getFavePosition() {
@@ -64,14 +72,6 @@ public class LoLProfile {
 
 	public void setFavePosition(String favePosition) {
 		this.favePosition = favePosition;
-	}
-
-	public long getId() {
-		return Id;
-	}
-
-	public void setId(long id) {
-		Id = id;
 	}
 
 	public String getTag() {

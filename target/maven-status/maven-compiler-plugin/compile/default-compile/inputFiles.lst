@@ -7,6 +7,7 @@ C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\util\JSON
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\Team.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\User.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\TeamRepository.java
+C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\DotAProfile.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\TeamH2DBRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\business\UserBusiness.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\rest\TeamEndpoints.java

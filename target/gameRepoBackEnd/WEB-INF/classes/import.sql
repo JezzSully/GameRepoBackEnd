@@ -1,2 +1,2 @@
-INSERT INTO LOLPROFILE (ID, DIVISION, LEAGUE, FAVEPOSITION, FAVECHAMP, USERNAME) VALUES ('1', '3', 'gold', 'support', 'janna', 'JezzSully');
+INSERT INTO LOLPROFILE (ID, DIVISION, LEAGUE, FAVEPOSITION, FAVECHAMP, USERNAME, TAG, NOTES) VALUES ('1', '3', 'gold', 'support', 'janna', 'JezzSully', 'Looking to learn', 'Only started this season');
 INSERT INTO USER (AGE, EMAIL, USERNAME, LEAGUEPROFILE_ID) VALUES ('23', 'jez@gmail.com', 'jezz', '1');
