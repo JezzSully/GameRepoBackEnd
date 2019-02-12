@@ -6,10 +6,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+import javax.inject.Inject;
+
 import org.junit.After;
 
 import com.jez.persistence.domain.User;
 import com.jez.persistence.repository.UserH2DBRepository;
+import com.jez.persistence.repository.UserRepository;
 import com.jez.util.JSONUtil;
 
 @Ignore

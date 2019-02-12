@@ -1,12 +1,16 @@
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\UserRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\LoLProfile.java
+C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\business\InfoBusiness.java
+C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\InfoRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\rest\UserEndpoints.java
+C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\rest\InfoEndpoints.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\business\TeamBusiness.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\UserH2DBRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\util\JSONUtil.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\Team.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\User.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\TeamRepository.java
+C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\InfoH2DBRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\domain\DotAProfile.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\persistence\repository\TeamH2DBRepository.java
 C:\Users\Admin\eclipse-workspace\gameRepoBackEnd\src\main\java\com\jez\business\UserBusiness.java
